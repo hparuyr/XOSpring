@@ -1,6 +1,6 @@
 # XOSpring
 
-DB create script
+##DB create script
 
 create table GAME
 (
@@ -13,3 +13,17 @@ WINNER VARCHAR(30),
 LAST_MOVE INT,
 primary key (ID)
 );
+
+## Maven commands usage
+
+#### To clean project
+mvn clean
+
+#### To build project
+mvn install
+
+#### To run project on tomcat,(Note tomcat plugin is already configured in pom)
+mvn tomcat7:run
+
+#### All together
+mvn clean install tomcat7:run
