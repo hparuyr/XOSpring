@@ -1,0 +1,15 @@
+# XOSpring
+
+DB create script
+
+create table GAME
+(
+ID INT NOT NULL AUTO_INCREMENT,
+PLAYER1   VARCHAR(30) not null,
+PLAYER2  VARCHAR(30),
+STATE  VARCHAR(100),
+TURN  VARCHAR(30),
+WINNER VARCHAR(30),
+LAST_MOVE INT,
+primary key (ID)
+);
