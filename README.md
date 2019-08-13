@@ -1,6 +1,6 @@
 # XOSpring
 
-##DB create script
+## DB create script
 
 create table GAME
 (
